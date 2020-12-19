@@ -15,24 +15,28 @@ BiSIDA aligns domains by:
 
 # Usage
 
-1. Pretraining of the style transfer network
-
-   > python adain/train/train_0_1.py
-
-2. Experiment on SYNTHIA-to-CityScapes benckmark
-
-   > python train/train_synthia_vgg/train_synthia_vgg_experiment.py
-
-3. Experiment on GTAV-to-CityScapes benckmark
-
-   > python train/train_gta_vgg/train_gta_vgg_experiment.py
-       
-4. Pretrained Models
+1. Download the pretrained VGG model required by both the our style transfer network and FCN, and put it into saved_models/.
 
    VGG initializations is available through this [link.](https://drive.google.com/file/d/11PbJLLd9C3-Aj4yiRbJoDgEZyfZn3dIv/view?usp=sharing)
    
-   Pretrained style transfer network is available through this  [link.](https://drive.google.com/file/d/1lgoRj-M9c9kTKPPnmm2G5kdGY4K7G3-1/view?usp=sharing)
-      
+2. Pretraining of our continuous style-induced image generator ([AdaIN](https://github.com/xunhuang1995/AdaIN-style)).
+
+   > python adain/train/train_0_1.py
+   
+   An example of our continuous style-induced image generator transferring an image in SYNTHIA to a image in CityScapes with different alpha ranging from 0 to 1 with an increment of 0.2.
+   
+   ![Image of alpha](https://github.com/wangkaihong/BiSIDA/blob/master/demo_img/alpha.png)
+
+   Note: Pretrained style transfer network is available through this  [link](https://drive.google.com/file/d/1lgoRj-M9c9kTKPPnmm2G5kdGY4K7G3-1/view?usp=sharing) and  should be placed in saved_models/.
+
+3. Experiment on SYNTHIA-to-CityScapes benckmark
+
+   > python train/train_synthia_vgg/train_synthia_vgg_experiment.py
+
+4. Experiment on GTAV-to-CityScapes benckmark
+
+   > python train/train_gta_vgg/train_gta_vgg_experiment.py
+             
    
 **Acknowledgment**
 
