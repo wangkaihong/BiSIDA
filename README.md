@@ -1,7 +1,7 @@
 # BiSIDA: Bidirectional Style-induced Domain Adaptation
 Pytorch implementation for "Consistency Regularization with High-dimensional Non-adversarial Source-guided Perturbation for Unsupervised Domain Adaptation in Segmentation" accepted by AAAI-2021.
 
-Our bidirectional style-induced domain adaptation employs consistency regularization to efficiently exploit information from the unlabeled target domain dataset, requiring only a simple ****neural style transfer**** model. 
+Our Bidirectional Style-Induced Domain Adaptation (BiSIDA) employs consistency regularization to efficiently exploit information from the unlabeled target domain dataset, requiring only a simple ****neural style transfer**** model. 
 
 BiSIDA aligns domains by:
 * transferring source images into the style of target images for supervised learning; 
@@ -40,4 +40,4 @@ BiSIDA aligns domains by:
    
 **Acknowledgment**
 
-Code adapted from [BDL](https://github.com/liyunsheng13/BDL), [self ensemble visual domain adapt](https://github.com/wangkaihong/self-ensemble-visual-domain-adapt), and [fcn](https://github.com/wkentaro/fcn/). 
+Code borrowed from [BDL](https://github.com/liyunsheng13/BDL), [self ensemble visual domain adapt](https://github.com/wangkaihong/self-ensemble-visual-domain-adapt), and [fcn](https://github.com/wkentaro/fcn/). 
