@@ -4,12 +4,12 @@ Pytorch implementation for "Consistency Regularization with High-dimensional Non
 Our bidirectional style-induced domain adaptation employs consistency regularization to efficiently exploit information from the unlabeled target domain dataset, requiring only a simple ****neural style transfer**** model. 
 
 BiSIDA aligns domains by:
-* transferring source images into the style of target images to perform supervised learning; 
-* transferring target images into the style of source images to perform high-dimensional perturbation on the unlabeled target images through unsupervised learning. 
+* transferring source images into the style of target images for supervised learning; 
+* transferring target images into the style of source images to perform high-dimensional perturbation on the unlabeled target images for unsupervised learning. 
 
 ![Image of BiSIDA](https://github.com/wangkaihong/BiSIDA/blob/master/demo_img/pipeline.png)
 
- An example of our BiSIDA from SYNTHIA to CityScapes. 
+ An example of our BiSIDA on the SYNTHIA-to-CityScapes benchmark eperiment. 
 
  ![Image of Source](https://github.com/wangkaihong/BiSIDA/blob/master/demo_img/vis.png)
 
