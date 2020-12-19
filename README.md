@@ -34,4 +34,4 @@ BiSIDA aligns domains by not only transferring source images into the style of t
    
 **Acknowledgment**
 
-Code adapted from [BDL](https://github.com/liyunsheng13/BDL), [self-ensemble-visual-domain-adapt](https://github.com/wangkaihong/self-ensemble-visual-domain-adapt) and [fcn](https://github.com/wkentaro/fcn/). 
+Code adapted from [BDL](https://github.com/liyunsheng13/BDL), [self ensemble visual domain adapt](https://github.com/wangkaihong/self-ensemble-visual-domain-adapt), and [fcn](https://github.com/wkentaro/fcn/). 
