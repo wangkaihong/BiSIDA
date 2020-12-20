@@ -36,8 +36,17 @@ BiSIDA aligns domains by:
 4. Experiment on GTAV-to-CityScapes benckmark
 
    > python train/train_gta_vgg/train_gta_vgg_experiment.py
-             
    
+# Citation
+```
+@article{Wang_Yang_Betke_2021, 
+title={Consistency Regularization with High-dimensional Non-adversarial Source-guided Perturbation for Unsupervised Domain Adaptation in Segmentation}, 
+journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+author={Wang, Kaihong and Yang, Chenhongyi and Betke, Margrit}, 
+year={2021}, 
+}
+```
+             
 **Acknowledgment**
 
 Code borrowed from [BDL](https://github.com/liyunsheng13/BDL), [self ensemble visual domain adapt](https://github.com/wangkaihong/self-ensemble-visual-domain-adapt), and [fcn](https://github.com/wkentaro/fcn/). 
