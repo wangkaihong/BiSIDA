@@ -1,5 +1,5 @@
 # BiSIDA: Bidirectional Style-induced Domain Adaptation
-Code of our AAAI 2021 paper: [Consistency Regularization with High-dimensional Non-adversarial Source-guided Perturbation for Unsupervised Domain Adaptation in Segmentation](https://arxiv.org/abs/2009.08610)
+Code of our AAAI 2021 paper: [Consistency Regularization with High-dimensional Non-adversarial Source-guided Perturbation for Unsupervised Domain Adaptation in Segmentation](https://ojs.aaai.org/index.php/AAAI/article/view/17216)
 
 Our Bidirectional Style-Induced Domain Adaptation (BiSIDA) employs consistency regularization to efficiently exploit information from the unlabeled target domain dataset, requiring only a simple ****neural style transfer**** model. 
 
